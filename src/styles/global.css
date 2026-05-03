@@ -453,6 +453,12 @@ p {
   padding: 28px;
 }
 
+.detail-back-link {
+  display: flex;
+  width: fit-content;
+  margin-bottom: 18px;
+}
+
 .detail-section {
   margin-top: 24px;
   border-top: 1px solid rgba(124, 61, 70, 0.12);

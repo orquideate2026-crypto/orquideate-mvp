@@ -10,6 +10,9 @@ export default function ProductDetail() {
     <section className="page-section detail-layout">
       <img className="detail-art" src={product.image} alt={product.imageAlt} />
       <div className="detail-copy">
+        <Link className="button secondary small detail-back-link" to="/catalogo">
+          ← Volver al catálogo
+        </Link>
         <p className="eyebrow">Detalle de producto</p>
         <h1>{product.name}</h1>
         <p>{product.description}</p>
