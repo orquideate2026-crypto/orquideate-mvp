@@ -18,6 +18,13 @@ const images = {
   kitRegalo: "/images/kit-regalo-sostenible.jpg",
   kitPersonalizacion: "/images/kit-personalizacion-taller.jpg",
   kitRecarga: "/images/kit-recarga-lavanda-menta.jpg",
+  pulseraColombia: "/images/ChatGPT%20Image%202%20may%202026%2C%2010_03_50%20p.m..jpg",
+  collarMargaritaLuz: "/images/ChatGPT%20Image%202%20may%202026%2C%2010_04_59%20p.m..jpg",
+  aretesHojaNatural: "/images/lucid-origin_Aretes_Hoja_Natural_earrings_with_mixed_petals_and_a_tiny_gold_leaf_detail_trans-0.jpg",
+  collarPrimaveraHortensia:
+    "/images/lucid-origin_Collar_Primavera_Spring_edition_necklace_with_hydrangea_and_daisy_preserved_in_r-0.jpg",
+  kitTallerCasa:
+    "/images/lucid-origin_Kit_Taller_Flat_lay_of_a_DIY_home_workshop_kit_preserved_flowers_resin_pieces_co-0.jpg",
 };
 
 export const products = [
@@ -374,5 +381,100 @@ export const products = [
       "Kit enfocado en sostenibilidad y duración, con accesorio floral y recargas aromáticas para renovar el aroma sin reemplazar la pieza principal. Ideal para uso continuo.",
     story:
       "Creado para que la experiencia Orquídeate pueda renovarse con el tiempo.",
+  },
+  {
+    id: "pulsera-colombia-florece",
+    name: "Pulsera Colombia Florece",
+    type: "Pulsera",
+    category: "Pulseras",
+    flower: "Orquídea y clavel mini",
+    scent: "Rosas suaves",
+    price: 89000,
+    basePrice: 89000,
+    image: images.pulseraColombia,
+    imageAlt: "Pulsera artesanal con orquídea, clavel y dije dorado de Colombia.",
+    badge: "Colombia",
+    tags: ["Personalizables", "Aromáticos", "Sostenibles"],
+    description: "Pulsera floral con detalle colombiano y cordón tejido ajustable.",
+    detailDescription:
+      "Pulsera artesanal con flores mini en tonos rosados, cordón tejido y dije dorado inspirado en Colombia. Es una pieza expresiva, femenina y cómoda para llevar un detalle floral con identidad local.",
+    story:
+      "Inspirada en las flores colombianas y en la idea de llevar un pedacito del país cerca de la piel.",
+  },
+  {
+    id: "collar-margarita-luz",
+    name: "Collar Margarita Luz",
+    type: "Collar",
+    category: "Collares",
+    flower: "Margarita y hortensia rosa",
+    scent: "Té blanco",
+    price: 99000,
+    basePrice: 99000,
+    image: images.collarMargaritaLuz,
+    imageAlt: "Collar dorado con margarita preservada, hortensia rosada y charm de hoja.",
+    badge: "Nuevo",
+    tags: ["Personalizables", "Aromáticos", "Regalos"],
+    description: "Collar luminoso con flores claras y charm dorado de hoja.",
+    detailDescription:
+      "Collar dorado con dije floral transparente, margarita preservada, detalle de hortensia rosada y charm de hoja. Su composición suave lo hace ideal para regalar o para acompañar looks delicados.",
+    story:
+      "Creado para representar luz, ternura y la alegría tranquila de las flores pequeñas.",
+  },
+  {
+    id: "aretes-hoja-natural",
+    name: "Aretes Hoja Natural",
+    type: "Aretes",
+    category: "Aretes",
+    flower: "Pétalos mixtos",
+    scent: "Frutos rojos suaves",
+    price: 87000,
+    basePrice: 87000,
+    image: images.aretesHojaNatural,
+    imageAlt: "Aretes en forma de gota con pétalos mixtos y detalle dorado de Colombia.",
+    badge: "Artesanal",
+    tags: ["Aromáticos", "Sostenibles", "Regalos"],
+    description: "Aretes florales en gota con pétalos vivos y detalle dorado.",
+    detailDescription:
+      "Aretes artesanales en forma de gota con pétalos preservados en tonos vino, rosado y dorado. Son livianos, femeninos y pensados para sumar color sin perder elegancia.",
+    story:
+      "Una pieza inspirada en hojas, mapas y flores que cuentan una historia natural.",
+  },
+  {
+    id: "collar-primavera-hortensia",
+    name: "Collar Primavera Hortensia",
+    type: "Collar",
+    category: "Collares",
+    flower: "Hortensia y margarita",
+    scent: "Cítricos suaves",
+    price: 104000,
+    basePrice: 104000,
+    image: images.collarPrimaveraHortensia,
+    imageAlt: "Collar con hortensia, margarita y hoja dorada encapsuladas en resina.",
+    badge: "Edición especial",
+    tags: ["Personalizables", "Aromáticos"],
+    description: "Collar floral de primavera con hortensia, margarita y hoja dorada.",
+    detailDescription:
+      "Collar de edición especial con hortensia, margarita y hoja dorada encapsuladas en una pieza transparente. Su acabado premium lo convierte en una opción fresca, elegante y memorable.",
+    story:
+      "Inspirado en los jardines de primavera y en la mezcla entre delicadeza floral y brillo artesanal.",
+  },
+  {
+    id: "kit-taller-en-casa",
+    name: "Kit Taller en Casa",
+    type: "Kit",
+    category: "Kits",
+    flower: "Flores mixtas preservadas",
+    scent: "A elección",
+    price: 168000,
+    basePrice: 168000,
+    image: images.kitTallerCasa,
+    imageAlt: "Kit de taller en casa con flores preservadas, cordones, resina, aroma y empaque.",
+    badge: "Taller",
+    tags: ["Personalizables", "Regalos", "Sostenibles"],
+    description: "Kit completo para crear una pieza floral personalizada en casa.",
+    detailDescription:
+      "Kit de taller con flores preservadas, piezas de resina, cordones, aroma y empaque artesanal. Está pensado para vivir la experiencia Orquídeate desde casa y crear una pieza con intención propia.",
+    story:
+      "Una invitación a hacer con las manos, elegir cada detalle y convertir flores en un accesorio personal.",
   },
 ];
